@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c0b9df;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f3cece;
+}
+
+.container{
+  display: grid;
+  grid-template-coloumns: auto auto auto;
+
+}
